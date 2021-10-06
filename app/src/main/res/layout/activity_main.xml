@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/welcome_screen"
-        android:layout_width="187dp"
-        android:layout_height="41dp"
+        android:layout_width="291dp"
+        android:layout_height="80dp"
         android:text="@string/welcome_screen"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
