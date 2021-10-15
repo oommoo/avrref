@@ -9,10 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AvrRef">
-
-        <!-- "AR Optional" app, contains non-AR features that can be used when
-             "Google Play Services for AR" (ARCore) is not available. -->
-        <meta-data android:name="com.google.ar.core" android:value="optional" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <!--
+         "AR Optional" app, contains non-AR features that can be used when
+             "Google Play Services for AR" (ARCore) is not available.
+        -->
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
 
         <activity
             android:name=".MainActivity"
